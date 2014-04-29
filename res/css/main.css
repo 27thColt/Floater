@@ -1,0 +1,12 @@
+#game {
+	border:5px solid black;
+	height:400px;
+	width:400px;
+	margin-left:425px;
+	margin-right:500px;
+}
+body {
+	text-align:center;
+	background-color:#99E0F7; /* light blue */
+	font-family:"Lucida Grande";
+}
