@@ -112,7 +112,7 @@ playState = {
 	//adding more coins and other items to the screen
 	addMore:function() {
 		//coin
-		var coin = this.coins.create(10, Math.floor(Math.random() * 400), "coin");
+		var coin = this.coins.create(10, Math.floor(Math.random() * 500), "coin");
 		this.game.physics.enable(coin, Phaser.Physics.ARCADE);
 
 		//coin animations
@@ -123,7 +123,7 @@ playState = {
     	coin.outOfBoundsKill = true;
 
     	//fish
-    	var fish = this.fishGroup.create(10, Math.floor(Math.random() * 400), "fish");
+    	var fish = this.fishGroup.create(10, Math.floor(Math.random() * 500), "fish");
 
     	//fish animations
     	fish.animations.add("swim", [0, 1, 2, 3, 4, 3, 2, 1], 6, true);
@@ -138,7 +138,7 @@ playState = {
 
     	//will spawn 1 / 4 of the time
     	if (Math.random() > 3/4) {
-    		var bubble = this.bubbles.create(this.game.width - 10, Math.floor(Math.random() * 400), "bubble");
+    		var bubble = this.bubbles.create(this.game.width - 10, Math.floor(Math.random() * 500), "bubble");
     		this.game.physics.enable(bubble, Phaser.Physics.ARCADE);
 
     		bubble.body.velocity.x = -200; 
@@ -149,7 +149,7 @@ playState = {
 
     	//will spawn 1 / 8 of the time
     	if (Math.random() > 7/8) {
-    		var heart = this.hearts.create(this.game.width - 10, Math.floor(Math.random() * 400), "heart");
+    		var heart = this.hearts.create(this.game.width - 10, Math.floor(Math.random() * 500), "heart");
     		this.game.physics.enable(heart, Phaser.Physics.ARCADE);
 
     		heart.body.velocity.x = -300;
@@ -160,7 +160,7 @@ playState = {
 
     	//will spawn 1/16 of the time
     	if (Math.random() > 15/16) {
-    		var shark = this.sharks.create(10, Math.floor(Math.random() * 400), "shark");
+    		var shark = this.sharks.create(10, Math.floor(Math.random() * 500), "shark");
     		this.game.physics.enable(shark, Phaser.Physics.ARCADE);
 
     		//shark animations
