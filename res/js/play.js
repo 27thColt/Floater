@@ -175,7 +175,7 @@ playState = {
 	//resetting the game
 	reset:function() {
 		this.game.time.events.remove(this.timer); 
-		game.state.start("menu");
+		game.state.start("gameOver");
 	},
 
 	//for collecting coins
