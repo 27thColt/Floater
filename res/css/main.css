@@ -2,7 +2,12 @@
 	border:5px solid black;
 	height:600px;
 	width:800px;
+<<<<<<< HEAD
 	margin:0 auto;
+=======
+	margin-left:250px;
+	margin-right:500px;
+>>>>>>> FETCH_HEAD
 }
 body {
 	text-align:center;
